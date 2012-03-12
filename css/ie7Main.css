@@ -1,0 +1,15 @@
+#pageContainer{
+    top: -34px;
+}
+
+#mainContentContainer{
+	top: -37px;
+}
+
+#pageHeading {
+	top: 0px;	
+}
+
+.content{
+	padding-top: 20px;
+}

@@ -1,0 +1,55 @@
+#titleContainer h1 {
+    top: 10px;
+}
+
+#mainContentContainer{
+	top: -38px;
+}
+
+#testimonials {
+    left: 20px;
+}
+
+#propertyNav {
+	position: absolute;
+	top: 293px;
+	left: -37px;
+	width: 618px; 
+	padding: 0px;
+	
+}
+
+#propertyNav li{
+	display: inline;
+	width:312px;
+}
+
+#recommendations {
+	top: 285px;
+}
+
+.bx-prev {
+	top:-95px;
+}
+
+.bx-next {
+	top:-95px;
+}
+
+#testimonialsSlider {
+	position: relative;
+	top: 20px;
+}
+
+.featureBoxHeader h1 {
+	position: relative;
+	top: -5px;
+	font-size: 24px;
+}
+
+.featureBox ul {
+   position: relative;
+    top: 12px;
+    padding: 5px;
+    left: -8px;
+}

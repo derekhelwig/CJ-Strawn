@@ -1,0 +1,45 @@
+#menu {
+	
+	position: absolute;
+	left: -40px;
+	top: 0px;
+	z-index: 100;
+}
+
+#menu li .drop {
+	padding-right:0px;
+	background:url("");
+}
+#menu li:hover .drop {
+	background:url("");
+}
+
+#categoryMenu{
+	left: -41px;
+	width: 310px;
+}
+
+.buttonBar{
+	border: 1px solid #888888;
+	top: -60px;
+}
+
+.step {
+	padding: 5px 20px 5px 20px;
+}
+
+#stepMenu {
+	width: 100%;
+}
+
+#stepMenu li {
+    color: #FFFFFF;
+    display: inline;
+    font-size: 12px;
+    position: relative;
+    top: -8px;
+}
+.rightArrow {
+    display: none;
+}
+
