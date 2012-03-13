@@ -1,0 +1,14 @@
+#mainContentContainer{
+	top: -14px;
+}
+#recommendations {
+    position: absolute;
+    top: 311px;
+}
+
+input  {
+	outline: none;
+	text-decoration: none;
+	border: none;
+	
+}

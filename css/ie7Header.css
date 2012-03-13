@@ -1,0 +1,30 @@
+#header h1 {
+	position: absolute;
+	top: -20px;
+}
+
+#designedBy  {
+    top: -50px;
+}
+
+
+
+#socialMedia {
+    top: 5px;
+    left: 600px;
+}
+
+
+
+#header img {
+    left: 218px;
+    position: relative;
+    top: 0px;
+    vertical-align: top;
+    z-index: 3;
+}
+.logo {
+    left: 309px;
+    position: relative;
+    top: 75px;
+}
