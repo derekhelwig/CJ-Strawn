@@ -17,17 +17,16 @@
 	border-left: 1px solid #000000;
 	border-bottom: 1px solid #000000;
 	padding: 20px;
-	text-align: right;
 	z-index: 1;
 }
 
-#getToKnowCj ul {
-    left: -61px;
+#aboutCJ ul {
+    left: 0px;
     position: relative;
     top: -23px;
 }
 
-#getToKnowCj li{
+#aboutCJ li{
     color: #777777;
     list-style: none outside none;
     padding-left: 20px;
@@ -35,20 +34,20 @@
     padding-top: 5px;
 }
 
-#getToKnowCj a {
+#aboutCJ a {
 	text-decoration: none;
 	font-weight: bold;
 	color: #0066B3;
 }
 
-#getToKnowCj a:hover {
+#aboutCJ a:hover {
 	color: #777777;
 }
 
 #getToKnowCj .button{
-    left: -168px;
+    left: 0px;
     position: relative;
-    top: -20px;
+    top: 20px;
     color: #FFFFFF;
 }
 
@@ -245,16 +244,16 @@
 }
 
 #communityResearchHeader{
-	width: 650px;
+	width: 940px;
 	filter: none;
 }
 
 #communityResearch{
-	width: 670px;
+	width: 960px;
 	height: 200px;
 }
 
-#whyChooseRemaxHeader{
+#aboutCJHeader{
 	position: relative;
 	top: -254px;
 	left: 690px;
@@ -262,7 +261,7 @@
 	filter: none;
 }
 
-#whyChooseRemax{
+#aboutCJ{
 	position: relative;
 	left: 680px;
 	top: -275px;
@@ -271,15 +270,31 @@
 	height: 200px;
 }
 
-#whyChooseRemaxFooter{
+#aboutCJFooter{
     left: 691px;
     position: relative;
-    top: -313px;
-    width: 270px;
+    top: -314px;
+    width: 260px;;
+    background-color: #cccccc;
+    -moz-border-bottom-left-radius:10px;
+	-moz-border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	padding: 5px;
+	text-align: center;
+	border-top: 1px solid #888888;
 }
 
-#whyChooseRemaxFooter a {
+#aboutCJFooter a {
+	color: #0066B3;
     width: 260px;
+    text-decoration: none;
+}
+
+#aboutCJFooter a:hover {
+	color: #888888;
 }
 
 
@@ -308,4 +323,10 @@
 
 #footer{
 	top: -20px;
+}
+
+.headShot {
+	position: relative;
+	left: -20px;
+	float: left;
 }

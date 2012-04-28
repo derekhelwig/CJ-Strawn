@@ -8,15 +8,23 @@
 	<link rel="stylesheet" type="text/css" href="/css/header.css" >
 	<link rel="stylesheet" type="text/css" href="/css/nav.css" >
 	<link rel="stylesheet" type="text/css" href="/css/sell.css" >
+	<link rel="stylesheet" type="text/css" href="/css/list.css" >
+	<link rel="stylesheet" type="text/css" href="/css/form.css" >
 	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
 	
-	<!--[if IE 8]>        
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="/css/ieForm.css" />
+	<![endif]-->
+		
+	<!--[if IE 8]> 
+		<link rel="stylesheet" type="text/css" href="/css/ie8Form.css" />
 	<![endif]-->
 	
 	<!--[if IE 7]>        
 		<link rel="stylesheet" type="text/css" href="/css/ie7Main.css" />
 		<link rel="stylesheet" type="text/css" href="/css/ie7Header.css" />
 		<link rel="stylesheet" type="text/css" href="/css/ie7Nav.css" />
+		<link rel="stylesheet" type="text/css" href="/css/ie7Form.css" />
 	<![endif]-->
 	
 
@@ -26,7 +34,6 @@
 		body {behavior: url("/css/csshover3.htc");}
 		</style>
 	<![endif]-->
-
 
 
 
@@ -41,7 +48,7 @@
 				<img alt="Follow us on LinkedIn" src="/images/linkedIn.png" >
 			</div>
 			<div id="designedBy"><a href="http://www.derek-helwig.com" >Designed by Derek Helwig</a></div>
-			<div id="navigation">
+				<div id="navigation">
 				<ul id="menu">
 					<li><a href="http://www.cjstrawn.com">home</a></li>
 					<li>
@@ -63,7 +70,7 @@
 					</li>
 					<li><a href="http://www.cjstrawn.com/contact">contact</a></li>
 					<li>
-						<a href="#" class="drop">tools and advice</a>
+						<a href="http://www.cjstrawn.com/remaxmidstates/modules/agent/agent.asp?p=findahome.asp&page=search&results=false" target="_blank" class="drop">tools and advice</a>
 						<div class="dropdown_2columns">
 							<div class="col_2"><a title="Steps to Selling Your Home" href="http://www.cjstrawn.com/sell" class="divider">Steps to Selling Your Home</a></div>
 							<div class="col_2"><a title="Online Property Search" target="_blank" href="http://www.cjstrawn.com/remaxmidstates/modules/agent/agent.asp?p=findahome.asp&page=search&results=false">Online Property Search</a></div>
@@ -76,37 +83,46 @@
 		<div id="pageContainer">
 			<div id="mainContentContainer">
 				<div id="pageHeading" class="titleBar">
-					<h1>Sell Your Home</h1>
+					<h1>Contact</h1>
 				</div>
-				<p id="explanation">Take these steps to ensure that your home sells quickly and you get more for your home.
-				<ul id="stepMenu">
-					<li><span class="step previous">LOOK AROUND</span><div class="rightArrow previousArrow"></div><div class="rightArrow shadowArrow"></div></li>
-					<li><span class="step selected">REMOVE CLUTTER</span><div class="rightArrow selectedArrow"></div><div class="rightArrow shadowArrow"></div></li>
-					<li><span class="step">CLEAN EVERYTHING</span><div class="rightArrow"></div><div class="rightArrow shadowArrow"></div></li>
-					<li><span class="step">REPAIR IT</span><div class="rightArrow"></div><div class="rightArrow shadowArrow"></div></li>
-					<li><span class="step">STAGE ROOMS</span><div class="rightArrow"></div><div class="rightArrow shadowArrow"></div></li>
-					<li><span class="step">GAUGE THE MARKET</span><div class="rightArrow"></div><div class="rightArrow shadowArrow"></div></li>
-					<li><span class="step">LIST IT</span><div class="rightArrow"></div><div class="rightArrow shadowArrow"></div></li>
-				</ul>
 				<div id="stepContent">
-					<h2>Clean Out the Clutter Before You Start to Sell</h2>
-					<p>Before putting your home on the market, get rid of clutter in every area.  This includes closets, attic storage, kitchen cabinets, drawers, bath vanities, and shelves. 
-						Remember, this is no time to be sentimental; if you don't use it, lose it. Potential buyers are seriously put off by clutter, and most of us drag a lot more things 
-						through life than we really need.</p>
-					
-					<p>Also, don't forget the furniture and fixtures when getting rid of clutter.  Most of us put too much in too little space, which makes a buying prospect, think your home 
-						is too small.
+					<p>
+						Whether you are looking to buy or sell a property or just have general real estate questions, 
+						please feel free to contact me.<br>
 					</p>
-					
-					<p>Have a great moving sale with all the stuff you've collected and use the proceeds for paint or whatever other materials you need for repair projects. If you just can't 
-						bear to part with some possessions, store them in the attic or some other place that's out of sight to a potential buyer.
-					</p>
+					<form id="contactForm" class="left">
+						<h3 class="sectionHeading">Email</h3>
+						<label>Name</label>
+						<input name="name" type="text" class="required" minlength="2">
+						
+						<label>Email</label>
+						<input id="email" name="email" type="text" class="required email" minlength="2">
+						
+						<label>Phone Number</label>
+						<div id="phoneLine">
+							<input name="phone" class="required phoneUS" type="text" >
+						</div>
+						<div class="rightForm">
+							<label>Comments</label>
+							<textarea rows="15" cols="15" class="required"></textarea>
+						</div>
+						<p class="buttonBar">
+							<a class="button submit" title="Contact CJ Straw" href="/sell/list.html" >SUBMIT</a>
+						</p>
+					</form>
+					<div class="right">
+						CJ Strawn<br>
+						Remax Boone Realty<br>
+						33 E. Broadway  Suite 200<br>
+						Columbia MO 65203<br>
+						573-876-2824<br><br>
+						<a href="http://www.facebook.com/pages/CJ-Strawn-Remax-Realtor-Columbia-MO-Real-Estate/161525880563189" title="Connect with me on Facebook">Facebook</a><br>
+						<a href="http://www.linkedin.com/profile/view?id=30386497&locale=en_US&trk=tyah" titled="View my LinkedIn Profile">LinkedIn</a><br><br>
+						
+						<img alt="Map to CJs Office" src="http://mt0.google.com/vt/data=2kDeNlrAqxCHl0K6RLm71qk0Le7WYzPeDcTMv2ta_Lxmgm1QEN1tmGsYz25efHhjYP5x8sB9cQBQJAIHzCfLnk9EzjEzGCk-8efqNyae0Nw" height="200px"/>
+					</div>
 				</div>
 			</div>
-			<p class="buttonBar">
-				<a class="button previousButton" title="Remove Clutter" href="/sell" >BACK</a>
-				<a class="button next" title="Clean Everything" href="/sell/clean-everything.html" >NEXT</a>
-			</p>
 		</div>
 		
 		
@@ -116,7 +132,8 @@
 		</div>
 	</div>
 	
-	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.validate.js"></script>
+	<script type="text/javascript" src="/js/contact.js"></script>
 </body>
 </html>

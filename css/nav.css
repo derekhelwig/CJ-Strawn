@@ -426,7 +426,7 @@ body, ul, li {
     border-width: 12px;
     display: inline-block;
     height: 0;
-    left: 0px;
+    left: -1px;
     margin-right: -26px;
     position: relative;
     top: 8px;

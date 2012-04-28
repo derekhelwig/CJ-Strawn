@@ -1,56 +1,134 @@
+h3 {
+	margin-right: 20px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+form h3 {
+	background-color: #0083e6;
+	border: 1px solid #0083e6;
+	
+	/* Rounded Corners */
+	-moz-border-top-left-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
+	
+	-moz-border-top-right-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#contactHeader {
+	background-color: #999999;
+}
+
+#mainContentContainer {
+	height: auto;
+	padding-bottom: 60px;
+}
+
 form {
-    background-color: #DDDDDD;
-    border: 1px solid #888888;
-    border-radius: 10px 10px 10px 10px;
-    margin-left: 10px;
-    margin-right: auto;
-    padding: 20px;
-    width: 50%;
+	height: auto;
+	border: 1px solid #888888;
+	
+	/* Rounded Corners */
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	padding-bottom: 17px;
+
+}
+
+.left {
+	float: left;
+    position: relative;
+    top: 16px;
+    left: 21px;
+    width: 585px;
+}
+
+.rightForm {
+	position: absolute;
+	left: 285px;
+	top: 57px;
+}
+
+.rightForm label {
+	margin: 15px 0 5px 15px;
+}
+
+.right {
+	position: absolute;
+	left: 607px;
+	top: 47px;
+	width: 302px;
+	padding: 0px 30px 0px 30px;
+}
+
+#stepContent .sectionHeading {
+	margin: 0px 0px 30px 0px;
+}
+
+.headShot {
+	float: left;
+	border: 1px solid #888888;
+	margin-right: 20px;
 }
 
 input {
 	border: 1px solid #cccccc;
-	margin-left: 20px;
-	width: 350px;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	padding-left: 5px;
+	width: 200px;
+	margin-left: 45px;
 }
 
 label {
 	display:block;
 	font-weight: bold;
-	margin: 15px 0px 5px 20px;
-	color: #555555;
+	margin: 15px 0 5px 45px;
+	color: #555555;	
+}
+
+label.error { 
+	color: red; 
 }
 
 textArea{
-	margin-left: 20px;
-	margin-bottom: 20px;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	width: 350px;
+    border: 1px solid #CCCCCC;
+    height: 133px;
+    position: relative;
+    top: -2px;
+    left: -1px;
+    width: 235px;
+    margin-left: 15px;
+}
+
+#phoneLine {
+	position: relative;
+	top: 9px;
 }
 
 .phone {
 	text-align: center;
+	position: relative;
+	top: -9px;
 }
 
-.areaCode {
-	width: 35px;
-	margin-right:5px;
+#stepContent .button {
+    position: relative;
+    left: 408px;
+    top: -20px;
 }
 
-.phoneFirstThree{
-	margin-left: 5px;
-	margin-right:5px;
-	width:35px;
+.buttonBar {
+	height: 30px;
+	width: 545px;
+	top: 31px;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
 }
 
-.phoneLastFour{
-	margin-left: 6px;
-	width: 40px;
+#footer {
+	top:  -45px;
 }
-
